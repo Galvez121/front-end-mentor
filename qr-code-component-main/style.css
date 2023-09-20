@@ -1,0 +1,32 @@
+body {
+  background-color: hsl(220, 15%, 55%);
+}
+
+#container {
+  display: flex;
+  flex-flow: column wrap;
+  margin: auto;
+  background-color: aliceblue;
+  width: 230px;
+  padding: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+#container h1 {
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+#container p {
+  text-align: center;
+  color: gray;
+  font-size: 0.938rem;
+}
+
+#qr_picture_container img {
+  border-radius: 1rem;
+  width: 100%;
+}
